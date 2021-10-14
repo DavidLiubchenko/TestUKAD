@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test Page</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/clear.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    
+    <div id="app">
+
+        <header></header>
+
+<!-- Navigation -->
+        <nav class="page-navigation">
+            <div></div><!-- для отступа -->
+            <div><img src="imgs/UCAD.bmp" width="" alt="UCAD"></div>
+            <div><a href="index.html">HOME</a></div>
+            <div class="activeNav"><a href="products.html">PRODUCTS</a></div>
+
+        </nav>
+<!-- /Navigation -->
+
+
+
+    </div>
+
+    <script src="https://unpkg.com/vue@next"></script>
+    <script> 
+        const { createApp, computed } = Vue;
+        const App = createApp({
+        
+        });
+        App.mount("#app");
+    </script>
+</body>
+</html>

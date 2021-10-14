@@ -1,0 +1,28 @@
+/*Navigation*/
+nav{
+    height: 124px;
+}
+.page-navigation{
+    background-color: #002B32;
+    
+}
+A {
+    color: white; /* Цвет ссылок */
+   }
+   A:visited {
+    color: white; /* Цвет посещенных ссылок */
+   }
+   A:active {
+    color: white; /* Цвет активных ссылок */
+   }
+.page-navigation div{
+    height: 123px;
+    display: table-cell;
+    width: 150px;
+    font-size: large;
+    text-align: center;
+    vertical-align: middle;
+}
+.activeNav{
+    background-color: #01242b ;
+}
